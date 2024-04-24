@@ -48,12 +48,29 @@
 <div class="container">
     <table class="table">
         <th>
-            <td><a href="https://ceicaifcd0112.pythonanywhere.com/"><img src="media/img/py1.jpg" width="50%" alt=""></a></td>
-            <td><a href="https://ceicaifcd0112.github.io/pokeweb/"><img src="media/img/jv1.jpg" width="50%" alt=""></a></td>
-            <td><a href="https://ceicaifcd0112.github.io/webby/"><img src="media/img/webby_1.jpg" width="50%" alt=""></a></td>
-            <td><img src="ruta_a_la_imagen_4.jpg" alt="" href=""></td>
+            <td><a href="https://maps.app.goo.gl/GUj2dfH7eAq1vLmj6"><img src="media/img/oficinas.jpg" alt=""></a></td>
+            <td><a href="https://xploracion.com/"><img src="media/img/xploracion2021.jpg" alt=""></a></td>
         </th>
     </table>
+</div>
+<hr>
+<div class="container">
+    <h2 class="mt-5">Formulario de Contacto</h2>
+    <form action="procesar_formulario.php" method="POST">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+    </form>
 </div>
 <hr>
 <div class="container">

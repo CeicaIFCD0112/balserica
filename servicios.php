@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inmertion On The Content</title>
     <!-- Estilos de Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -14,17 +16,34 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Inmertion On The Content</h1>
-    <table class="table">
-        <th>
-            <td><a href="index.php"><img src="media/img/i-home.jpg" alt=""></a></td>
-            <td><a href="servicios.php"><img src="media/img/i-servicios.jpg" alt=""></a></td>
-            <td><a href="proyectos.php"><img src="media/img/i-proyectos.jpg" alt=""></a></td>
-            <td><a href=""><img src="" alt=""></a></td>
-        </th>
-    </table>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="media/img/ceica.png" alt="Logo" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.php">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.php">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyectos.php">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.php">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido restante de tu página -->
 <hr>
 <div class="container">
     <table class="table">
@@ -47,9 +66,9 @@
         </th>
     </table>
 </div>
+<!-- Agrega los enlaces a Bootstrap JS (opcional, si necesitas funcionalidades adicionales de Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-  <!-- Agrega los enlaces a Bootstrap JS (opcional, si necesitas funcionalidades adicionales de Bootstrap) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
